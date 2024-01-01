@@ -2,7 +2,9 @@ import cv2
 import numpy as np
 
 # Define the image size
-width, height = 500,50
+width, height = 500,500
+
+
 
 # Create an all-white image
 image = np.zeros((height, width), dtype=np.uint8) * 255
